@@ -1,0 +1,85 @@
+body{
+  background-color: #3761a8;
+}
+
+.head{
+  padding: 10px;
+}
+
+.navbar{
+  padding: 10px;
+}
+
+ul{
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 6px solid rgb(255, 253, 253);
+  margin: 10px;
+  width: 10%;
+  background-color:#ef5350;
+}
+
+.searchbar{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.search{
+  margin: auto;
+  display: block;
+  padding: 5px 20px 5px 20px;
+  border: 1px solid white;
+  background-color: #3761a8;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.addnickname{
+  margin: auto;
+  display: block;
+  background-color: #3761a8;
+  padding: 5px 5px 5px 5px;
+}
+
+input::placeholder{
+  color: rgb(255, 255, 255);
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+.pokeinfo{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 15%;
+  text-align: center;
+  font-size: 17px;
+  float: left;
+  background-color: #feca1b;
+}
+
+.footbar{ 
+  padding: 5px;
+  text-align: center;}
+
+
+.nextbutton{
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 6px solid rgb(255, 253, 253);
+  margin: 10px;
+  width: 10%;
+  background-color:#ef5350;
+}
