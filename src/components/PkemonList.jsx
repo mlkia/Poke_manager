@@ -95,7 +95,7 @@ function PokemonLista() {
 							<br/>
 
 							{/* This button (Add button) to add an element to the new array */}
-							<button type="button" onClick={() => setTeam(team => [...team, item])}>
+							<button type="button" onClick={() => setTeam(team => [...team, val]) +										setNickname('')}>
 								<i className='fa fa-plus'></i>
 							</button>
 			   </div>
